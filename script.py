@@ -24,17 +24,14 @@ def main():
     # Labels e entradas com valores pré-preenchidos para conexão
     Label(root, text="Servidor:", font=("Arial", 10)).pack(pady=5)
     server_entry = Entry(root, font=("Arial", 10))
-    server_entry.insert(0, "SQL-SERVER")
     server_entry.pack(pady=5)
 
     Label(root, text="Banco de Dados:", font=("Arial", 10)).pack(pady=5)
     database_entry = Entry(root, font=("Arial", 10))
-    database_entry.insert(0, "AccessControl_Replication")
     database_entry.pack(pady=5)
 
     Label(root, text="Usuário:", font=("Arial", 10)).pack(pady=5)
     username_entry = Entry(root, font=("Arial", 10))
-    username_entry.insert(0, "jdaat")
     username_entry.pack(pady=5)
 
     Label(root, text="Senha:", font=("Arial", 10)).pack(pady=5)
